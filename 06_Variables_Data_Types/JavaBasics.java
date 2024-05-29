@@ -80,6 +80,67 @@ public class JavaBasics {
         // int sum = a + b;
         // System.out.println("Sum = " + sum);
 
+        // Product of a and b
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter A ");
+        // int a = sc.nextInt();
+        // System.out.println("Enter B ");
+        // int b = sc.nextInt();
+        // int product = a * b;
+        // System.out.println("Product = " + product);
+
+        // Area of Circle
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter radius ");
+        // float radius = sc.nextFloat();
+        // float area = 3.14f * radius * radius;
+        // System.out.println("Area of the circle = " + area);
+
+        // Type Conversion
+        // int a = 25;
+        // long b = a;
+        // long a = 25;
+        // int b = (int) a;
+        // System.out.println(b);
+
+        // Scanner sc = new Scanner(System.in);
+        // float number = sc.nextInt();
+        // System.out.println(number);
+
+        // Scanner sc = new Scanner(System.in);
+        // float a = 25.999f;
+        // int b = (int) a; // loss of data
+        // System.out.println(b);
+
+        // char ch = 'a';
+        // int number = ch;
+        // System.out.println(number);
+
+        // Type Promotion in Expressions
+
+        // char a = 'a';
+        // char b = 'b';
+        // System.out.println(b - a); // 1
+
+        // short a = 5;
+        // byte b = 25;
+        // char c = 'c';
+        // byte bt = (byte) (a + b + c);
+        // System.out.println(bt);
+
+        // int a = 10;
+        // float b = 20.25f;
+        // long c = 25;
+        // double d = 30;
+        // double ans = a + b + c + d;
+        // System.out.println(ans);
+
+        // byte b = 5;
+        // byte a = (byte) (b * 2);
+        // System.out.println(a);
+
     }
 }
 

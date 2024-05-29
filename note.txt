@@ -95,3 +95,32 @@ Hi there!
  // System.out.println(doubleNumber);
  // boolean bool = sc.nextBoolean();
  // System.out.println(bool); // enter True convert true , enter False convert false
+
+
+==> Type Conversion : Widening Conversion : Implicit Conversion
+Conversion happens when
+a. type compatible
+b. destination type > source type
+
+byte -> short -> int -> float -> long -> double
+
+==> Type Casting : Narrowing Conversion :  Explicit Conversion
+
+==> Type Promotion in Expressions :
+1. Java automatically promotes each byte, short, or char operand to int when evaluating an expression.
+2. If one operand is long, float or double the whole expression is promoted to long, float, or double respectively.
+
+
+// How is Our Code Running?
+
+ JVM + Libraries = JRE (Java Runtime Environment)
+
+ (JVM + Libraries = JRE ) + Development Tools = JDK
+
+ => Source Code (.java) => Compiler => Byte Code (.class) => Java Virtual Machine (JVM) => Native Code  
+
+ => Source Code (.java) convert Byte Code (.class) => Compilation
+
+ => Byte Code (.class) convert Native Code => Execution
+
+ => Java is Portable Language
