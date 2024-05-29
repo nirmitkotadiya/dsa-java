@@ -1,0 +1,106 @@
+// FlowCharts
+-> Diagram to represent solution of problem
+
+1. small parts
+2. logically arrange
+
+// FlowChart Symbols / Components
+
+Start/End - Oval
+
+Input/Output - Parallelogram
+
+Process - Rectangle
+
+Decision - Diamond
+
+Flow - Arrow
+
+// Sum of two numbers
+
+// Pseudo Code
+
+1. Start
+2. Input A, B
+3. C = A + B
+4. Output C
+5. End
+
+// Calculate Simple Interest
+
+// Pseudo Code
+
+1. Start
+2. Input P,R,T.
+3. SI = (P*R*T)/100
+4. Output SI
+5. Exit
+
+// Find Max of 3 Numbers
+
+// Pseudo Code
+
+1. Start
+2. Input A,B,C
+3. if a > b do
+      if a > c do
+         print a
+      else
+         print c
+   else
+      if b > c do
+         print b
+      else
+         print c
+4. Exit
+
+
+// Find if number is Prime
+
+// Pseudo Code
+
+1. Start
+2. Input N
+3. for i = 2 to N-1 do
+      if N % i == 0 do
+         print "Not Prime"
+         Exit
+   print "Prime" 
+4. Exit
+
+OR 
+
+1. Start
+2. Input N
+3. let div = 2
+4. while div < N do
+      if N % div == 0 do
+         print "Not Prime"
+         Exit
+      else
+         div = div + 1
+   print "Prime"
+5. Exit
+
+
+// Sum of First n natural numbers
+
+1. Start
+2. Input N 
+3. Let val = 1 & sum = 0 
+4. while val <= N  do
+      sum = sum + val 
+      val = val + 1
+5. print sum
+6. Exit
+
+OR
+
+1. Start
+2. Input N
+3. Sum = 0
+4. while N > 0 do
+      Sum = Sum + N
+      N = N - 1
+5. Output Sum
+6. Exit
