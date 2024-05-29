@@ -16,3 +16,6 @@
 
 [04_Flowcharts_Pseudocodes](https://github.com/nirmitkotadiya/dsa-java/tree/main/04_Flowcharts_Pseudocodes)
 
+## 06_Variables_Data_Types
+
+[06_Variables_Data_Types](https://github.com/nirmitkotadiya/dsa-java/tree/main/06_Variables_Data_Types)
