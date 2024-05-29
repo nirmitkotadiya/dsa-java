@@ -1,0 +1,45 @@
+public class JavaBasics {
+    public static void main(String[] args) {
+
+    }
+}
+
+// boilerplate code
+
+ System.out.print("Hello World!");
+ // print function
+ // ; statement terminator
+
+// Compile and Run Java Code
+
+javac FileName.java
+java ClassName
+
+=> For Example Class Name JavaBasics.java:
+javac JavaBasics.java
+java JavaBasics
+
+
+// print -> Same Line
+// println -> Next Line
+// \n -> Next Line
+
+ // Variables in Java
+ //  a = 10;
+ //  b = 5;
+ // 2 * (a + b) 
+ // -> 2 => Literal 
+ // -> a , b  => Variable 
+ // int a = 10; // 10 assigned to a
+ // int b = 5;
+
+ // a ,b , c ,... -> Variable Name or Identifier
+
+ // Memory 
+-> 1 Byte = 8 bits
+-> 1 KB = 1024 Bytes
+
+// a = 10; -> address -> 1001
+
+    // 1. Stack Memory
+    // 2. Heap Memory
