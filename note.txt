@@ -37,9 +37,61 @@ java JavaBasics
 
  // Memory 
 -> 1 Byte = 8 bits
+-> 1 bit store either 1 or 0.
 -> 1 KB = 1024 Bytes
 
 // a = 10; -> address -> 1001
 
     // 1. Stack Memory
     // 2. Heap Memory
+
+
+ // Data Types in Java 
+ // -> Java is Typed Language
+
+// Primitive -> exists
+1. byte     -> 1 byte [-128 to 127]  => 256
+2. short    -> 2 bytes
+3. char     -> 2 bytes
+4. boolean  -> 1 bytes
+5. int      -> 4 bytes
+6. long     -> 8 bytes
+7. float    -> 4 bytes
+8. double   -> 8 bytes
+
+// Non-Primitive 
+1. String
+2. Array
+3. Class
+4. Object
+5. Interface
+
+
+// Comments in Java -> ignore compiler
+
+1. Single Line Comments
+
+ // Hi there!
+
+2. Multi Line Comments
+
+/* 
+Hi there!
+*/
+
+
+// Input in Java 
+
+1. next 
+2. nextLine
+3. nextInt
+4. nextByte
+5. nextFloat
+6. nextDouble
+7. nextBoolean 
+8. nextShort
+9. nextLong
+
+ // System.out.println(doubleNumber);
+ // boolean bool = sc.nextBoolean();
+ // System.out.println(bool); // enter True convert true , enter False convert false
