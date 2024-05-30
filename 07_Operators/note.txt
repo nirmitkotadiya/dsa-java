@@ -1,0 +1,64 @@
+// Operators in Java
+
+Symbols that tell compiler to perform some operation.
+
+sum = a + b;
+=> a and b => operands
+=> + - * / => operator
+
+Types of Operators
+
+1. Arithmetic Operators (Binary / Unary)
+2. Relational Operators
+3. Logical Operators
+4. Bitwise Operators (Bit Manipulation)
+5. Assignment Operators
+
+1. Arithmetic Operators (Binary / Unary)
+
+Binary =>
++ => a +  b = 10 + 5 = 15
+- => a - b = 10 - 5 = 5
+* => a * b = 10 * 5 = 50
+/ => a / b = 10 / 5 = 2
+% => a % b = 10 % 5 = 0
+=> 2 operands 
+
+Unary => 
+++ =>  a++ ++a  => increment
+-- =>  a-- --a  => decrement
+++a  --a => pre increment => 
+1. value change
+2. value use
+
+a++  a-- => post increment
+1. value use
+2. value change 
+=> 1 operands
+
+2. Relational Operators
+
+==  equal to
+!=  not equal to
+>   greater than
+<   less than
+>=  greater than or equal to
+<=  less than or equal to
+
+3. Logical Operators
+
+&& (Logical AND) => both true then true
+|| (Logical OR)  => both false then false
+!  (Logical NOT) => if true then false , if false then true
+
+4. Bitwise Operators (Bit Manipulation)
+-> ...
+
+5. Assignment Operators
+
+=       a = b
++=      a += b => a = a + b      
+-=      a -= b => a = a - b
+*=      a *= b => a = a * b 
+/=      a /= b => a = a / b
+%=      a %= b => a = a % b
