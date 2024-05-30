@@ -30,4 +30,8 @@
 
 ## 09_Loops_(Flow_Control)
 
-[09_Loops_(Flow_Control)](<https://github.com/nirmitkotadiya/dsa-java/tree/main/09_Loops_(Flow_Control)>)
+[09_Loops_(Flow_Control)](https://github.com/nirmitkotadiya/dsa-java/tree/main/09_Loops_(Flow_Control))
+
+## 10_Patterns_(Part_I)
+
+[10_Patterns_(Part_I)](https://github.com/nirmitkotadiya/dsa-java/tree/main/10_Patterns_(Part_I))
