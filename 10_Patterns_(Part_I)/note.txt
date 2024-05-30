@@ -1,0 +1,51 @@
+Patterns
+
+// Print Star Pattern  
+-> nested loops
+for(){
+    for(){
+
+    }
+}
+
+1. lines ( n )
+    outer loop -> n times
+
+2. number of times ( i )
+    inner loop -> i times
+
+3. what to print ? 
+    "*"
+
+// Print Inverted-Star Pattern  
+1. lines ( n )
+    outer loop -> n times
+
+2. number of times ( i )
+    inner loop -> n - i + 1 times
+
+3. what to print ? 
+    "*"
+
+// Print Half-Pyramid Pattern  
+1. lines ( n )
+    outer loop -> n times
+
+2. number of times ( j )
+    inner loop -> j times
+
+3. what to print ? 
+    j
+
+
+// Print Character Pattern  
+1. lines ( n )
+    outer loop -> n times
+
+2. number of times ( j )
+    inner loop -> j times
+
+3. what to print ? 
+    char ch = 'A'
+    ch++
+
