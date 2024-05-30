@@ -19,3 +19,7 @@
 ## 06_Variables_Data_Types
 
 [06_Variables_Data_Types](https://github.com/nirmitkotadiya/dsa-java/tree/main/06_Variables_Data_Types)
+
+## 07_Operators
+
+[07_Operators](https://github.com/nirmitkotadiya/dsa-java/tree/main/07_Operators)
