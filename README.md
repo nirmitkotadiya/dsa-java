@@ -28,6 +28,6 @@
 
 [08_Conditional_Statements](https://github.com/nirmitkotadiya/dsa-java/tree/main/08_Conditional_Statements)
 
-## 09*Loops*(Flow_Control)
+## 09_Loops_(Flow_Control)
 
-[09*Loops*(Flow_Control)](<https://github.com/nirmitkotadiya/dsa-java/tree/main/09_Loops_(Flow_Control)>)
+[09_Loops_(Flow_Control)](<https://github.com/nirmitkotadiya/dsa-java/tree/main/09_Loops_(Flow_Control)>)
