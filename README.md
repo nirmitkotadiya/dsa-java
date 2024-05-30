@@ -23,3 +23,7 @@
 ## 07_Operators
 
 [07_Operators](https://github.com/nirmitkotadiya/dsa-java/tree/main/07_Operators)
+
+## 08_Conditional_Statements
+
+[08_Conditional_Statements](https://github.com/nirmitkotadiya/dsa-java/tree/main/08_Conditional_Statements)
