@@ -1,0 +1,46 @@
+// Conditional Statements
+
+parenthesis ()
+curly brackets / curly braces {}
+
+if, else
+else if 
+ternary operator
+switch
+
+=> if-else Statements
+if(condition){
+
+}
+else{
+
+}
+
+=> else if Statements
+if(condition 1){
+
+}
+else if(condition 2){
+
+}
+else{
+
+}
+
+=> ternary Operator
+
+variable = condition ? Statement1 : Statement2;
+if condition true return Statement1 else return Statement2
+
+=> switch Statement
+
+switch(variable){
+    case 1:
+
+    case 2:
+
+    case 3:
+
+    default:
+}
+
