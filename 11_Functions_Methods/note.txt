@@ -1,0 +1,81 @@
+// Functions / Methods
+
+block of code
+{
+
+}
+
+// Syntax
+
+returnType name(){
+    // body
+    return statement;
+}
+
+// Syntax with Parameters
+
+returnType name(type param1,type param2){
+    // body
+    return statement;
+}
+
+// Parameters vs Arguments
+
+formal Parameters -> Parameter -> defination
+actual Parameters -> Argument -> call
+
+
+// What happens in Memory?
+
+Call Stack
+
+-> Stack Frame => store => main string
+               => store => sum int 
+              => after run program memory removed in call stack. 
+
+
+// Call by Value
+
+Java always calls by value 
+
+// Binomial Coefficent
+nCr = (n!)/r!*(n-r)!
+
+
+// InBuilt vs User defined Methods
+
+Method -> User Defined => factorial, sum , product
+InBuilt Method -> Math => power, sqrt, max
+
+// Function Overloading
+Multiple functions with the same name but differnt parameters
+
+// Function Overloading using Parameters
+
+// Function Overloading using Data Types
+
+// Convert from Binary to Decimal
+
+Binary Number System (0, 1)
+
+decimal (n)10 = binary (n)2
+
+decimal 0 = binary 0
+decimal 1 = binary 01
+decimal 2 = binary 10
+decimal 3 = binary 11
+decimal 4 = binary 100
+decimal 5 = binary 101
+decimal 6 = binary 110
+decimal 7 = binary 111
+decimal 8 = binary 1000
+
+// Convert from Decimal to Binary
+
+
+// Scope 
+Method Scope -> function var  
+
+{
+    // block of code
+}
