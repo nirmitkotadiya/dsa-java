@@ -35,3 +35,7 @@
 ## 10_Patterns_(Part_I)
 
 [10_Patterns_(Part_I)](https://github.com/nirmitkotadiya/dsa-java/tree/main/10_Patterns_(Part_I))
+
+## 11_Functions_Methods
+
+[11_Functions_Methods](https://github.com/nirmitkotadiya/dsa-java/tree/main/11_Functions_Methods)
