@@ -1,0 +1,78 @@
+// Patterns
+
+// Print Hollow Rectangle Pattern
+
+1. total lines (total rows)
+    outer ( 1 to n(total rows))
+
+2. row = 1 ||  col = 1 || row = lastRow || col = lastCol
+
+3. print "*"
+
+
+// Inverted & Rotated Half-Pyramid
+
+1. total lines (total rows)
+    outer ( 1 to n(total rows))
+
+2. spaces + stars
+
+3. spaces = n - i star = rowNo
+
+
+// Inverted Half-Pyramid with Numbers
+
+1. total lines n 
+
+2. inner n-i+1
+
+3. j
+
+
+// Floyd's Triangle
+
+1. total lines n
+
+2. inner i
+
+3. print counter    // COUNTER START WITH 1 
+   counter++
+
+
+// 0-1 Triangle
+
+1. total lines n 
+
+2. inner i 
+
+3. if (i+ j ) % 2 == 0 then print 1 
+                    else print 0
+
+
+// BUTTERFLY Pattern
+
+1. total lines n
+
+2. stars (i) + spaces ( 2 * (n-i) ) + stars  (i)
+
+
+// solid Rhombus Pattern
+
+1. total lines n
+
+2. spaces (n-i) + star (n) 
+
+
+// Hollow Rhombus Pattern
+
+1. total lines n
+
+2.  line 
+    spaces (n-i) + boundary Rectangle ( Hollow Rectangle)
+
+
+// Diamond Pattern 
+
+1. total lines n
+
+2. spaces (n-i) + star (i*2-1)
