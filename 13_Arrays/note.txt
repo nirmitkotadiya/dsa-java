@@ -1,0 +1,88 @@
+
+// Arrays
+
+// Definition of an Array
+-> List of Elements of the same type
+placed in a contiguous memory location
+
+
+// Operation in Arrays 
+
+1. create
+2. Input 
+3. Output
+4. Update
+
+
+// Creating an Array
+
+dataType arrayName[] = new dataType[size];
+
+
+// Linear Search
+It sequentially checks each element of the list until a match is found or the whole list has been searched.
+// Time Complexity => O(n)
+
+
+// Largest Number in Array
+
+-infinity = Interger.MIN_VALUE
++infinity = Interger.MAX_VALUE
+ =>available in util package
+
+
+// Binary Search
+
+Time Complexity => O(log(n))
+
+Prerequisite - Sorted Arrays
+
+// PseudoCode
+
+start = 0 , end = n-1
+while(start <= end)
+    find mid  => (start+end)/2
+    compare mid & key
+        mid == key     FOUND 
+        mid > key      LEFT
+        mid < key      RIGHT
+
+
+// Reverse an Array
+
+ space Complexity = O(1) 
+ Time Complexity = O(n)
+    
+
+// Pairs in an Array
+
+Time Complexity = O(n*n)
+
+
+// Print Subarrays
+
+a continuous part of array 
+
+
+// Max Subarray Sum Brute Force
+
+Time Complexity = O( n*n*n )
+ 
+// Max Subarray Sum Prefix Sum
+
+Time Complexity = O( n*n )
+
+// Kadane's Algorithm -> Max Subarray Sum
+
+Time Complexity = O(n)
+
+
+// Trapping Rainwater -> 22
+Auxiliary Arrays
+
+O(n)
+
+
+// Buy & Sell Stocks
+
+
