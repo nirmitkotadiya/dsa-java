@@ -43,3 +43,7 @@
 ## 12_Patterns_(Part_II)_Advanced
 
 [12_Patterns_(Part_II)_Advanced](https://github.com/nirmitkotadiya/dsa-java/tree/main/12_Patterns_(Part_II)_Advanced)
+
+## 13_Arrays
+
+[13_Arrays](https://github.com/nirmitkotadiya/dsa-java/tree/main/13_Arrays)
