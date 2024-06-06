@@ -47,3 +47,7 @@
 ## 13_Arrays
 
 [13_Arrays](https://github.com/nirmitkotadiya/dsa-java/tree/main/13_Arrays)
+
+## 14_Basic_Sorting_Algorithms
+
+[14_Basic_Sorting_Algorithms](https://github.com/nirmitkotadiya/dsa-java/tree/main/14_Basic_Sorting_Algorithms)
