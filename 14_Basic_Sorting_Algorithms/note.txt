@@ -1,0 +1,25 @@
+
+// Sorting 
+-> Arrange in an order
+
+// Basic Algorithm
+
+Bubble Sort     => O(n*n)
+Selection Sort  => O(n*n)
+Insertion Sort  => O(n*n)
+Counting Sort   => O(n+k)
+
+
+// Inbuilt Sort 
+
+import java.util.Arrays;
+Arrays.sort(arr)
+O(n logn)
+
+Arrays.sort(Arr,si,ei) => starting index , ending index
+
+import java.util.Collections;
+Arrays.sort(arr,Collections.reverseOrder())
+
+Arrays.sort(arr,si,ei,Collections.reverseOrder())
+
