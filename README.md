@@ -51,3 +51,8 @@
 ## 14_Basic_Sorting_Algorithms
 
 [14_Basic_Sorting_Algorithms](https://github.com/nirmitkotadiya/dsa-java/tree/main/14_Basic_Sorting_Algorithms)
+
+## 15_2D_Arrays
+
+[15_2D_Arrays](https://github.com/nirmitkotadiya/dsa-java/tree/main/15_2D_Arrays)
+
