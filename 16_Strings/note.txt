@@ -1,0 +1,41 @@
+// Strings
+
+String str = "abcd"
+
+// Strings are IMMUTABLE
+
+// Largest String => Lexicographic
+
+str1.compareTo(str2)
+compareToIgnoreCase
+
+0 : equal
+< 0 : -ve   str1 < str2
+> 0 : +ve   str1 > str2 
+
+
+// What is String 
+
+String str1 = "Tony";
+String str2 = "Tony";
+
+String str3 = new String("Tony");
+-> Interning 
+
+
+String str  = "Tony"
+
+for (char ch='a' to 'z'){
+    str+=ch
+ }
+
+copy string => 
+ Tonya 
+ Tonyab 
+ Tonyabc
+
+
+// StringBuilder
+StringBuilder sb = new StringBuilder("HW");
+sb.toString()   => object convert string 
+
