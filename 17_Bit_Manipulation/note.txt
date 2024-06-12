@@ -1,0 +1,121 @@
+
+// Bit Manipulation 
+
+// Binary Number System 
+0 & 1
+
+Decimal to Binary (4) => 100
+
+Binary to Decimal (100) => 4
+
+Decimal    Binary
+0           000 
+1           001
+2           010
+3           011
+4           100
+5           101
+6           110
+7           111
+8           1000
+
+
+// Bit-wise Operators
+
+Binary AND &
+Binary OR |
+Binary XOR ^ 
+Binary One's Complement ~
+Binary Left Shift <<
+Binary Right Shift >>
+
+
+
+Binary AND &
+0 & 0 => 0
+0 & 1 => 0
+1 & 0 => 0
+1 & 1 => 1
+
+Binary OR |
+0 | 0 => 0
+0 | 1 => 1
+1 | 0 => 1
+1 | 1 => 1
+
+Binary XOR ^ 
+0 ^ 0 => 0
+0 ^ 1 => 1
+1 ^ 0 => 1
+1 ^ 1 => 0
+
+Binary One's Complement ~
+~0 => 1 
+~1 => 0
+
+~5 => 101  ==> 010 
+
+// LSB => Least Significant Bit 
+// MSB => Most Significant Bit 
+
+2's Complement => 1's Complement (~n) + 1
+
+~5 => 00000101 
+      11111010 
+1's Complement =>(~n) => 00000101 + 1
+                      => 00000110  => (6)10
+
+~5 => -6
+
+
+=> ~5 => (5*-1)-1 = -6
+
+
+Binary Left Shift <<
+
+5 << 2
+
+5 * 2^2 
+
+Binary Right Shift >>
+ 
+5 >> 2
+
+5 / 2^2
+
+
+// Check if a number is Odd or Even 
+
+even LSB => 0
+odd LSB => 1 
+
+
+// Operations 
+
+Get ith bit  => n & (1 << i) 
+
+Set ith bit => n | (1 << i)
+
+Clear ith bit  => n & ~(1 << i)
+
+Update ith bit => i + (clear,set)
+
+Clear Last i bits => n & ((-1) << i)
+
+Clear Range of bits 
+
+
+// Check if a number is a power of 2 or not.
+
+n & n-1 = 0  
+
+// Count Set Bits in a Number.
+
+n >> 1 
+
+n => log n + 1
+
+
+// Fast Exponentiation
+
+
