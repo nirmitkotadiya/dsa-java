@@ -1,0 +1,111 @@
+// Object Oriented Programming 
+
+Classes => group of these entities 
+Objects => entities in real world 
+
+class (Pen) => attributes(properties) => color
+        + functionss(behaviors) => changeColor()
+
+// Access Modifiers or Access Specifiers
+
+Access Modifier     within class    within package      outside package by subclass only        outside package
+
+Private                 Y                   N                       N                                   N
+Default                 Y                   Y                       N                                   N
+Protected               Y                   Y                       Y                                   N
+Public                  Y                   Y                       Y                                   Y
+
+// Getter and Setter
+
+Get => to return the value 
+Set => to modify the value
+
+this : this keyword is used to refer to the current object in a method or constructor.
+
+
+// Encapsulation
+
+Encapsulation is defined as the wrapping up of data & methods under a single unit.It also implements data hiding.
+
+data (properties ) + methods (function) => Encapsulation
+
+
+// Constructors
+
+Constructor is a special method which is invoked automatically at the time of object creation.  
+
+=> Constructors have the same name as class or structure.
+
+=> Constructors don't have any return type.(not even void)
+
+=> Constructors are only called once , at object creation time.
+
+=> Memory allocation happens when constructor is called.
+
+
+// Types of Constructors
+
+1. Non-Parameterized Constructor
+
+2. Parameterized Constructor
+
+3. Copy Constructor
+
+
+Copy Constructor 
+=> obj2 = copy(obj1)
+
+
+// Shallow Copy and Deep Copy
+
+Shallow Copy => references copy => changes reflect in original object
+
+Deep Copy => actual copy => changes don't reflect in original object
+
+
+// Destructor
+Garbage Collector => to destroy the object
+
+
+// Inheritance
+=> Inheritance is when properties & methods of base class are passed on to a derived class.
+
+=> Base Class => Parent Class => Super Class
+=> Derived Class => Child Class => Sub Class
+
+// Types of Inheritance
+
+Single Inheritance
+=> Base Class => Derived Class
+
+Multi Level Inheritance
+=> Base Class => Derived Class => Derived Class
+
+
+// Hierarchical Inheritance
+=> Base Class => Derived Class1
+=> Base Class => Derived Class2
+
+// Hybrid Inheritance
+=> Base Class => Derived Class1
+=> Base Class => Derived Class2
+
+
+// Multiple Inheritance
+=> Base Class1 => Derived Class
+=> Base Class2 => Derived Class
+=> not supported in Java , interface is used instead
+
+// Polymorphism => many forms
+
+1. Compile Time Polymorphism => Method Overloading =>static polymorphism
+
+2. Run Time Polymorphism => Method Overriding => dynamic polymorphism
+
+// Method Overloading
+=> Multiple functions with same name but different parameters
+
+// Method Overriding
+=> Parent and child classes both contain the same function with a different definition.
+
+
