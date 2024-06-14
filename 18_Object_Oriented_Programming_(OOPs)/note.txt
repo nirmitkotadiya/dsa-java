@@ -108,4 +108,65 @@ Multi Level Inheritance
 // Method Overriding
 => Parent and child classes both contain the same function with a different definition.
 
+// Packages in Java
+=> Package is a group of similar types of classes , interfaces and sub-packages.
+
+
+// Abstraction 
+=> Hiding all the unnecessary details and showing only the important parts to the user.
+=> Abstract Classes 
+=> Interfaces 
+
+// Abstract Class 
+- cannot create an instance of abstract class
+- can have abstract/non-abstract methods
+- can have constructors 
+
+
+// Interfaces
+=> Interface is a blueprint of a class 
+
+- Multiple Inheritance 
+- total abstraction 
+
+class => extends
+interface => implements
+
+- All methods are public, abstract & without implementation
+- Used to achieve total abstraction 
+- Variables in the interface are final,public and static
+
+// Multiple Inheritance
+
+Herbivores(Interface)    Carnivores(Interface) => Bear
+
+// class Bear implements Herbivores,Carnivores{ }
+
+
+// Static Keyword 
+=> static keyword in java is used to share the same variable or method of a given class.
+
+- Properties 
+- Functions 
+- Blocks 
+- Nested Classes 
+
+// Super Keyword 
+=> super keyword is used to refer immediate parent class object.
+
+- to access parent's properties 
+- to access parent's functions 
+- to access parent's constructor 
+
+// Practice Questions 
+
+// private and protected modifiers are not allowed in front of class.
+
+                private         default         protected       public
+Class              No             Yes               No            Yes  
+Nested Class       Yes            Yes               Yes           Yes 
+Constructor        Yes            Yes               Yes           Yes 
+Method             Yes            Yes               Yes           Yes 
+Field              Yes            Yes               Yes           Yes
+
 
