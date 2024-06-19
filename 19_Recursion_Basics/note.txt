@@ -1,0 +1,53 @@
+// Recursion 
+=> iteration + functions 
+
+// what is Recursion?
+using Math 
+f(n) = n * f(n-1)
+            n-1 * f(n-2)
+             .
+             .
+             .
+             1 * f(0)
+
+
+=> Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem.
+
+1. Base Case 
+2. Kaam (Work)
+3. Inner Function Call 
+
+// Print numbers from n to 1 (Deceasing Order)
+
+// Stack Overflow 
+Base Case Required
+
+// Print numbers from 1 to n (Increasing Order)
+
+// Print factorial of a number n.
+
+// Print sum of first n natural numbers. 
+
+// Print Nth fibonacci number.
+
+// Check if a given array is sorted or not.
+
+// WAF to find the first occurence of an element in an array.
+
+// WAF to find the last occurence of an element in an array.
+
+
+// Tiling Problem
+// Given a "2*n" board and tiles of "2*1" , count the number of ways to tile the given board using the 2*1 tiles.
+(A tile can either be placed horizontally or vertically)
+
+
+// Remove Duplicates in a String
+
+
+// Friends Pairing Problem
+// Given n friends , each one can remain single or can be paired up with some other friend. Each friend can be paired only once. Find out the total number of ways in which friends can remain single or can be paired up.
+
+// Binary Strings Problem 
+// Print all binary strings of size without consecutive ones.
+
