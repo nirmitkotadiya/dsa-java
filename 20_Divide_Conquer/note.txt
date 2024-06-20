@@ -1,0 +1,18 @@
+// Divide & Conquer Algorithms
+
+// Merge Sort
+Approach 
+1. Divide -> mid 
+
+mid = (si + ei)/2
+
+mid = si + ( ei - si)/2
+
+2. mergeSort(left)
+   mergeSort(right)
+
+3. merge 
+
+// Time Complexity => O(nlogn)
+// Space Complexity => O(n)
+
