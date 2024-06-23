@@ -16,3 +16,38 @@ mid = si + ( ei - si)/2
 // Time Complexity => O(nlogn)
 // Space Complexity => O(n)
 
+
+// Quick Sort 
+
+average  => O(nlogn)
+worst    => O(n^2)
+space    => O(1)
+
+Pivot & Partition
+1. pivot (element)
+2. Partition (parts)
+3. QuickSort(left)
+   QuickSort(right)
+4. Base case => Single element
+
+
+// Worst Case in Quick Sort 
+- Worst case occurs when pivot is always the smallest or the largest element.
+
+=> last ei => largest
+
+Partition => n times 
+total TC=> n + n-1 + n-2 + n-3 + .... + 1
+=> n(n+1)/2
+=> O(n^2)
+
+
+// Search in Rotated Sorted Array
+Approach
+1. Find the pivot element
+2. Check if the target element is in the left or right part of the pivot
+3. Perform binary search on the left or right part of the pivot
+
+// Time Complexity => O(logn)
+// Space Complexity => O(1)
+
