@@ -1,0 +1,10 @@
+// Time & Space Complexity
+
+// Order Complexity Analysis
+- Car => speed (0-100)
+      => price 
+      => capacity/size 
+
+- Amount of Space or Time taken up by an algorithm/code as function of input size.
+- NOT the actual time or space taken up by the algorithm.
+
