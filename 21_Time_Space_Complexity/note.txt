@@ -8,3 +8,66 @@
 - Amount of Space or Time taken up by an algorithm/code as function of input size.
 - NOT the actual time or space taken up by the algorithm.
 
+case 1 : n - up => t - up 
+case 2 : n - up => t - constant 
+
+
+// Big O Notation 
+- upper bound 
+- Note :  We always try to find worst case Complexity.
+
+1. Ignore constant 
+2. Largest Term 
+
+// Big Omega Notation 
+- lower bound -> Best Case TC 
+
+// Big Theta Notation 
+- avg bound -> Avg Case TC 
+
+// Common Complexities 
+
+// Space Complexity 
+- input space + auxiliary space 
+
+// LOOPS 
+- Simple Loop 
+-> O(n)
+
+// Nested Loop 
+-> O(n^2)
+
+// Sorting
+// Bubble Sort 
+-> worst case : O(n^2)
+-> Best case :  O(n)
+
+// Binary Search 
+-> O(log n)
+
+// Recursive Algorithm 
+Total work done = (no of calls) * (work done per call)
+
+Recurrence Equation
+
+Space Complexity = (max depth of recursion) * (memory in each call)
+
+// Factorial
+-> TC : O(n)
+-> SC : O(n)
+
+// Fibonacci 
+-> TC : O(2^n)
+-> SC : O(n)
+
+// Merge Sort 
+-> TC : O(n logn)
+-> SC : O(n)
+
+// Power Function 
+-> TC : O(logn)
+
+// How to approach Questions?
+
+- Brute Force (logical)
+- Optimize (time)

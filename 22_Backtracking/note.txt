@@ -1,0 +1,43 @@
+// BACKTRACKING 
+
+- Types of Backtracking
+Decision
+Optimization
+Enumeration
+
+// Backtracking - Arrays 
+
+// Find Subsets 
+- Find & Print all subsets of a given string 
+
+"abc"
+a, b, c, ab, bc, ac, abc, null ( empty set)
+- 8 subsets = 2^3 
+
+// Find Permutations 
+- Find & Print all permutations of a String.
+
+"abc"
+abc, acb, bac, bca, cab, cba 
+
+// N-Queens  
+- Place N queens on an N*N chessboard such that no 2 queens can attack each other 
+
+// Time Complexity => O(n!)
+
+// N Queens - Count ways 
+- Count total number of ways in which we can solve N Queens problem.
+
+// N Queens Print 1 Solution 
+- Check if problem can be solved & print only 1 solution to N Queens problem.
+
+// Grid ways 
+- Find number of ways to reach from (0,0) to (N-1,M-1) in a N*M Grid. Allowed moves - right or down.
+
+// Time Complexity => O(2^(n+m))
+
+// Math Trick for Linear Time : 
+(n-1+m-1)! / (n-1)! (m-1)! = total ways O(n+m)
+
+// Sudoku 
+
