@@ -1,0 +1,44 @@
+// ArrayList 
+- inbuilt linear 
+
+Array                   ArrayList
+- fixed size            - dynamic size 
+- primitive data        - primitive data types 
+types can be stored       can't be stored directly 
+
+// Operations
+- Add Element   O(1)
+- Get Element   O(1)
+- Remove Element O(n)
+- Set Element at Index O(n)
+- Contains Element  O(n)
+
+// Size of AL 
+.size() 
+
+// Print Reverse of an ArrayList 
+
+// Find Maximum in an ArrayList
+
+// Swap 2 Numbers 
+
+// Sorting an ArrayList 
+- Collections.sort()
+
+// Implementation 
+
+// Multi-dimensional ArrayList 
+
+// Container with Most Water 
+- For given n lines on x-axis, use 2 lines to form a Container such that it holds maximum water. 
+
+// How is this different than Trapping Rainwater?
+
+// Pair Sum  
+- Find if any pair in a Sorted ArrayList has a target sum.
+
+// Pair Sum - 1
+- 2 Pointer Approach
+
+// Pair Sum - 2
+- Find if any pair in a Sorted ArrayList has a target sum.
