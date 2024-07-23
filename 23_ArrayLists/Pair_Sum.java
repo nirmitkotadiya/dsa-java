@@ -29,6 +29,35 @@ public class Pair_Sum {
         return false;
     }
 
+    // Pair Sum - 2 => O(n)
+    public static boolean pairSum2(ArrayList<Integer> list, int target) {
+        int bp = -1;
+        int n = list.size();
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i) > list.get(i + 1)) {
+                bp = i;
+                break;
+            }
+        }
+        int lp = bp + 1; // smallest
+        int rp = bp; // largest
+        while (lp != rp) {
+            // case 1
+            if (list.get(lp) + list.get(rp) == target) {
+                return true;
+            }
+            // case 2
+            if (list.get(lp) + list.get(rp) < target) {
+                lp = (lp + 1) % n;
+            }
+            // case 3
+            else {
+                rp = (n + rp - 1) % n;
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(1);
@@ -39,5 +68,16 @@ public class Pair_Sum {
         int target = 9;
         System.out.println(pairSum(list, target));
         System.out.println(pairSum1(list, target));
+
+        ArrayList<Integer> list2 = new ArrayList<>();
+        // 11, 15, 6, 8, 9, 10 - Sorted & Rotated
+        list2.add(11);
+        list2.add(15);
+        list2.add(6);
+        list2.add(8);
+        list2.add(9);
+        list2.add(10);
+        int target2 = 16;
+        System.out.println(pairSum2(list2, target2));
     }
 }
